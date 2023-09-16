@@ -87,7 +87,7 @@ for (let i=0; i <arraydoadores.length; i++){
    lista +=`${nome.padEnd(14)}|${idade.toString().padEnd(7)}|${peso.toString().padEnd(6)}|${tiposangue.padEnd(16)}|${dataultima.padEnd(11)}\n`
    
 }
-console.log(lista)
+
 prompt(lista)
 menu()
 }
@@ -157,10 +157,10 @@ lista +=`${nome.padEnd(20)}| ${idade.toString().padEnd(6)}| ${peso.toString().pa
 prompt(lista)
 
 for (let i=0; i <tiposangueAComparar.length;){
-  tipotipo.pop()
+  tiposangueAComparar.pop()
 }
 for (let i=0; i <tipoUsuariosemtipo.length;){
-  tipotipo.pop()
+  tipoUsuariosemtipo.pop()
 }
 
 menu()
